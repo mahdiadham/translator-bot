@@ -1,0 +1,16 @@
+{
+  "name": "translate-bot",
+  "version": "1.1.0",
+  "description": "Translator Telegram Bot",
+  "license": "MIT",
+  "author": "whoami",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch --env-file=.env index.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.5",
+    "node-telegram-bot-api": "^1.1.0"
+  }
+}
