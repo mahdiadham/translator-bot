@@ -1,5 +1,5 @@
 # Translator Bot
-A Telegram Translator Bot With Node JS.
+A Telegram Translator Bot with NodeJS.
 
 ## Instructions
 1. Clone the repository first and install the requirements packages :
@@ -22,7 +22,7 @@ A Telegram Translator Bot With Node JS.
    DB_PORT=
    DB_NAME=
    ```
-6. Launch the bot with :
+6. Launch the bot with command :
    
    ```bash
    npm start
