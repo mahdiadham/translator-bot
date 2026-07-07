@@ -1,22 +1,17 @@
 # Translator Bot
 A Telegram Translator Bot with NodeJS.
 
+## Technologies :
+<img src="https://skillicons.dev/icons?i=nodejs,typescript,mysql&perline=3" />
+
 ## Instructions
 1. Clone the repository first and install the requirements packages :
-   
-   ```bash
-   git clone https://github.com/mahdiadham/translator-bot.git
-   cd translator-bot-main
-   npm install
-   ```
-   Or
    
    ```bash
    git clone https://github.com/mahdiadham/translator-bot.git
    cd translator-bot
    npm install
    ```
-   It depends on the name of your folder.
 3. Add folder <code>logs</code> to the root directory.
 4. Create .env file in the root directory and replace the values :
    
