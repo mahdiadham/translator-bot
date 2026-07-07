@@ -9,6 +9,14 @@ A Telegram Translator Bot with NodeJS.
    cd translator-bot-main
    npm install
    ```
+   Or
+   
+   ```bash
+   git clone https://github.com/mahdiadham/translator-bot.git
+   cd translator-bot
+   npm install
+   ```
+   It depends on the name of your folder.
 3. Add folder <code>logs</code> to the root directory.
 4. Create .env file in the root directory and replace the values :
    
