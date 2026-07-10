@@ -1,4 +1,6 @@
-const RestartKeyboard = {
+import type { LanguageKeyboard } from "../types/index.js";
+
+const RestartKeyboard: LanguageKeyboard = {
     reply_markup: {
         inline_keyboard: [
             [

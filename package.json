@@ -1,16 +1,24 @@
 {
   "name": "translate-bot",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Translator Telegram Bot",
   "license": "MIT",
   "author": "whoami",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node --watch --env-file=.env index.js"
+    "dev": "tsx watch --env-file=.env src/index.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/index.js"
   },
   "dependencies": {
     "mysql2": "^3.22.5",
     "node-telegram-bot-api": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/node-telegram-bot-api": "^0.64.15",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
   }
 }

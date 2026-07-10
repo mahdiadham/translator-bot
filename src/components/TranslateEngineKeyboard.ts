@@ -1,4 +1,6 @@
-const TranslateEngineKeyboard = {
+import type { LanguageKeyboard } from "../types/index.js";
+
+const TranslateEngineKeyboard: LanguageKeyboard = {
     reply_markup: {
         inline_keyboard: [
             [
