@@ -26,9 +26,19 @@ A Telegram Translator Bot with NodeJS.
    DB_PORT=
    DB_NAME=
    ```
-6. Launch the bot with command :
+6. Edit the bot with command :
+   
+   ```bash
+   npm run dev
+   ```
+7. Build the project :
+   
+   ```bash
+   npm run build
+   ```
+8. Launch the bot with command :
    
    ```bash
    npm start
    ```
-7. Enjoy the bot !
+9. Enjoy the bot !
