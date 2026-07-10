@@ -41,4 +41,8 @@ A Telegram Translator Bot with NodeJS.
    ```bash
    npm start
    ```
+<<<<<<< HEAD
 9. Enjoy the bot !
+=======
+9. Enjoy the bot !
+>>>>>>> f916f92b2b25343fec04c77012e857c3bdcb456b
