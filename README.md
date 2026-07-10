@@ -12,9 +12,9 @@ A Telegram Translator Bot with NodeJS.
    cd translator-bot
    npm install
    ```
-3. Add folder <code>logs</code> to the root directory.
-4. Create an account in <a href="https://one-api.ir" target="_blank">One Service</a> and get your own <code>API</code> and <code>API Token</code>.
-5. Create .env file in the root directory and replace the values :
+2. Add folder <code>logs</code> to the root directory.
+3. Create an account in <a href="https://one-api.ir" target="_blank">One Service</a> and get your own <code>API</code> and <code>API Token</code>.
+4. Create .env file in the root directory and replace the values :
    
    ```bash
    BOT_TOKEN=
@@ -26,19 +26,19 @@ A Telegram Translator Bot with NodeJS.
    DB_PORT=
    DB_NAME=
    ```
-6. Edit the bot with command :
+5. Edit the bot with command :
    
    ```bash
    npm run dev
    ```
-7. Build the project :
+6. Build the project :
    
    ```bash
    npm run build
    ```
-8. Launch the bot with command :
+7. Launch the bot with command :
    
    ```bash
    npm start
    ```
-9. Enjoy the bot !
+8. Enjoy the bot !
